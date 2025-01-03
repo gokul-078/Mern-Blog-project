@@ -18,7 +18,7 @@ import Login from './pages/Login';
 import UserProfile from './pages/UserProfile';
 import CreatePost from './pages/CreatePost';
 import EditPost from './pages/EditPost';
-import DeletePost from './pages/DeletePost'
+import DeletePost from './pages/DeletePost';
 import CategoryPosts from './pages/CategoryPosts';
 import Authors from './pages/Authors';
 import AuthorPost from './pages/AuthorPost';

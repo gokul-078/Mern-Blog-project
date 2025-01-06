@@ -25,7 +25,7 @@ app.use(express.json({extended: true}))
 // Url builtin middlewares it is used to handle the form methods:
 app.use(express.urlencoded({extended: true}))
 // Cross origin resource sharing(cors) Third party middlewares:
-app.use(cors({credentials: true, origin: ["http://localhost:3000", "https://mern-blog-server-6n0r.onrender.com", "https://mern-blog-project-xi.vercel.app"]}))
+app.use(cors({credentials: true, origin: "http://localhost:3000"}))
 
 // Upload routes and middleware:
 app.use(upload())

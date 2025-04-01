@@ -19,7 +19,6 @@ const Posts = () => {
         setIsLoading(true)
         try{
           const response = await axios.get(`${process.env.REACT_APP_BASE_URL}/posts`)
-            console.log(response.data)
           setPosts(response?.data)
         }
         catch(err){
